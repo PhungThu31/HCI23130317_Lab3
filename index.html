@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chia sẻ tài liệu các môn học</title>
+    <meta name="description" content="Trang web chia sẻ tài liệu các môn học">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>Chia sẻ tài liệu</h1>
+        </div>
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Tìm kiếm tài liệu, môn học..." aria-label="Tìm kiếm tài liệu, môn học">
+            <button onclick="performSearch()" aria-label="Tìm kiếm">Tìm kiếm</button>
+        </div>
+    </header>
+
+    <!-- Menu chính -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Trang chủ</a></li>
+            <li class="dropdown">
+                <a href="#" aria-haspopup="true" aria-expanded="false">Môn học</a>
+                <div class="dropdown-content">
+                    <a href="subject.html?subject=monhoc1">Lập trình cơ bản</a>
+                    <a href="subject.html?subject=monhoc2">Cấu trúc dữ liệu</a>
+                    <a href="subject.html?subject=monhoc3">Môn học 3</a>
+                    <!-- Thêm các môn học khác nếu cần -->
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    
+
+    <!-- Nội dung chính -->
+    <main>
+        <!-- Danh sách các môn học phổ biến -->
+        <section class="popular-subjects">
+            <div class="subjects-list">
+                <div class="subject-item">
+                    <h3><a href="subject.html?subject=monhoc1">Lập trình cơ bản</a></h3>
+                </div>
+                <div class="subject-item">
+                    <h3><a href="subject.html?subject=monhoc2">Cấu trúc dữ liệu</a></h3>
+                </div>
+                <div class="subject-item">
+                    <h3><a href="subject.html?subject=monhoc3">Môn học 3</a></h3>
+                </div>
+                <!-- Thêm các môn học khác nếu cần -->
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
