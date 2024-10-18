@@ -2,7 +2,7 @@
 const performSearch = () => {
     const query = document.getElementById('search-input').value.toLowerCase();
     alert('Bạn đã tìm kiếm: ' + query);
-    // Thực hiện logic tìm kiếm nâng cao ở đây (có thể là lọc danh sách môn học hoặc dữ liệu khác)
+    // Thực hiện logic tìm kiếm nâng cao (có thể là lọc danh sách môn học hoặc dữ liệu khác)
 };
 
 // Lấy tham số từ URL
@@ -31,8 +31,8 @@ const subjectsData = {
     monhoc2: {
         name: 'Cấu trúc dữ liệu',
         lectures: [
-            { id: 1, title: 'How to Design Program 1', content: 'Giảng viên: Nguyễn Đức Công Song', pdfUrl: 'DS1_Pass_by_value_reference.pdf' },
-            { id: 2, title: 'Methods for Classes', content: 'Giảng viên: Nguyễn Đức Công Song', pdfUrl: 'DS2_Recursion.pdf' }
+            { id: 1, title: 'How to Design Program 1', content: 'Giảng viên: Nguyễn Văn Dũ', pdfUrl: 'DS1_Pass_by_value_reference.pdf' },
+            { id: 2, title: 'Methods for Classes', content: 'Giảng viên: Nguyễn Văn Dũ', pdfUrl: 'DS2_Recursion.pdf' }
         ],
         exercises: [
             { id: 3, title: 'Bài tập 1', content: 'Class & Containment', pdfUrl: 'DS_Lab 1_1D Arrays.pdf' },
